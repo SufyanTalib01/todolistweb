@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(65, 99, 99);
+}
+
+.container{
+    background-color: white;
+    width: 400px;
+    text-align: center;
+    padding: 30px 30px;
+    margin-left: 33%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+#inp{
+    width: 190px;
+   padding: 6px 3px;
+   outline: none;
+    border: 1.7px solid rgb(106, 186, 106);
+}
+
+button{
+    background-color: black;
+    color: white;
+    padding: 8px 10px;
+    border-radius: 2px;
+    border:  none;
+    cursor: pointer;
+}
+
+.lists ul{
+    background-color: rgb(10, 48, 48);
+    width: 240px;
+    padding: 0px 5px;
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    color: white;
+    align-items: center;
+    border-radius: 3px;
+}
+
+.lists ul i{
+  padding-right: 10px;
+  cursor: pointer;
+}
