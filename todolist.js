@@ -1,20 +1,20 @@
 let inputs = document.getElementById("inp");
-let listing = document.querySelector(".lists");
+let Listing = document.querySelector(".lists");
 
-
-function Add(){
+ function Add(){
     if(inputs.value == ""){
-        alert("Please Enter Text")
+        alert("Enter the Text")
     }
     else{
-        let NewEL = document.createElement("ul");
-        NewEL.innerHTML = `${inputs.value} <i class="fa-solid fa-trash"></i>`
-        listing.appendChild(NewEL);
+        let NEwEL = document.createElement("ul");
+        NEwEL.innerHTML = `${inputs.value} <i class="fa-solid fa-trash"></i>`;
+        Listing.appendChild(NEwEL);
+
         inputs.value = "";
 
-        NewEL.querySelector("i").addEventListener("click" , remove);
-        function remove(){
-            NewEL.remove();
+        NEwEL.querySelector("i").addEventListener("click" , Removebin);
+        function Removebin(){
+            NEwEL.remove();
         }
     }
-}
+ }
